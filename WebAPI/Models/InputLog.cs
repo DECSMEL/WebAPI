@@ -13,6 +13,9 @@ namespace WebAPI.Models
             Values = new List<AttributeValueM>();
             Date = DateTime.Now;
         }
+        /// <summary>
+        /// 
+        /// </summary>
 
         public int Id { get; set; }
         public DateTime Date { get; set; }
